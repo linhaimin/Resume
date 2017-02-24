@@ -1,0 +1,196 @@
+@charset "utf-8";
+
+header, section, footer, aside, nav, article, figure{
+	display: block; 
+}
+
+/*@font-face{
+	font-family: myFont;
+	src: url(../font/helveticaneue_blackcond.ttf);
+}*/
+/*@font-face{
+	font-family: myFont;
+	src: url(../font/fontawesome-webfont.woff),
+		 url(../font/fontawesome-webfont.ttf),
+		 url(../font/fontawesome-webfont.svg),
+		 url(../font/fontawesome-webfont.eot);
+}*/
+
+body{
+	position: relative;
+}
+
+.navbar{
+	margin-bottom: 0;
+}
+.intro{
+	width: 100%;
+	height: auto;
+	background-color: #1889C5;
+	/*background: linear-gradient(180deg, #290B36 0%, #043453 100%);*/
+	/*background-image: -webkit-gradient(radial,50% 400, 1,50% 400, 400,from(rgba(255, 255, 255, 0.3)),to(rgba(255, 255, 255, 0)));
+*/}
+
+.intro .myPhoto{
+	width: 100%;
+	height: auto;
+	margin-top: 120px;
+}
+
+.intro .myPhoto img{
+	display: block;
+	margin: 50px auto;
+}
+
+.intro .myInfo{
+	font: 16px "微软雅黑";
+	line-height: 30px;
+	color: #fff;
+	padding: 40px 0;
+}
+
+.intro .myInfo ul{
+	list-style-type: none;
+}
+
+.intro .myInfo ul li a{
+	text-decoration: none;
+	color: #fff;
+}
+
+.intro .myInfo .desc-text p{
+	padding-left: 20px;
+}
+
+.skill{
+	width: 100%;
+	height: auto;
+	font: 16px "微软雅黑";
+	line-height: 35px;
+	color: #eee;
+	background-color: #4B770A;
+	background-image: -webkit-gradient(radial,50% 400, 1,50% 400, 400,from(rgba(255, 255, 255, 0.3)),to(rgba(255, 255, 255, 0)));
+	background-image: -ms-radial-gradient(50% 400, 1,50% 400, 400,from(rgba(255, 255, 255, 0.3)),to(rgba(255, 255, 255, 0)));
+	background-image: -moz-radial-gradient(50% 400, 1,50% 400, 400,from(rgba(255, 255, 255, 0.3)),to(rgba(255, 255, 255, 0)));
+	/*background-color: #00B271;
+	/*background-color: #6699CC;B45B3E(棕色),00B271*/
+}
+
+.skill h2{
+	
+}
+
+.skill .skill-header{
+	margin-top: 100px;
+	margin-bottom: 40px;
+	text-align: center;
+}
+
+.skill .row{
+	margin-bottom: 90px;
+}
+
+.skill .skill-js,.skill .skill-hc{
+	margin-bottom: 30px;
+}
+
+.skill-js,.skill-hc,.skill-ps,.skill-other{
+	padding-left: 10px;
+}
+
+.myDemo{
+	width: 100%;
+	height: auto;
+	background-color: #6699CC;
+}
+
+.myDemo .carousel{
+	margin: 65px 0 100px;
+}
+
+.myDemo .demo-header{
+	margin-top: 100px;
+	margin-bottom: 40px;
+	text-align: center;
+	color: #eee;
+}
+
+.myDemo .carousel ol li{
+	background-color: #666;
+}
+
+.myDemo .carousel-indicators .active{
+	background-color: #1889C5;
+}
+
+.carousel-inner img{
+	margin: 0 auto;
+}
+
+.carousel-control{
+	font-size: 70px;
+	line-height: 408px;
+}
+
+.carousel-indicators{
+	bottom: 10px;
+	margin-bottom: 0;
+}
+
+.carousel-control.left,.carousel-control.right{
+	background-image: none;
+}
+
+.carousel-control:focus{
+	color: #fff;
+	text-decoration: none;
+	outline: 0;
+	opacity: .5;
+}
+/* 此处上下两个css样式若调换顺序，会影响轮播图控制器的正常显示 */
+.carousel-control:hover{
+	color: #fff;
+	text-decoration: none;
+	outline: 0;
+	opacity: .9;
+}
+
+.carousel-caption{
+	bottom: 0;
+	font-family: "微软雅黑";
+	color: #15590e;
+}
+
+.work{
+	width: 100%;
+	height: auto;
+	background-color: #26B1B6;
+}
+.work .work-header{
+	text-align: center;
+	margin-top: 100px;
+	margin-bottom: 60px;
+	font-family: "微软雅黑";
+	color: #fff;
+}
+
+.work .study,.work .job{
+	font-family:"Microsoft YaHei",sans-serif;
+	color: #fff;
+}
+
+.work .col-md-4{
+	padding-left: 20px;
+}
+
+.work h4{
+	line-height: 40px;
+}
+.work p{
+	font-size: 15px;
+	line-height: 30px;
+}
+
+.work .row{
+	margin-bottom: 220px;
+}
