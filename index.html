@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>myResume</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body data-spy="scroll" data-target="#navbar-collapse" data-offset="50">
+	<!-- 头部 -->
+	<header>
+		<div class="navbar navbar-default navbar-fixed-top">
+			<div class="container">
+				<!-- 头部logo -->
+				<div class="navbar-header">
+					<a href="" class="navbar-brand">My Resume</a>
+					<button class="navbar-toggle collapsed" data-target="#navbar-collapse" data-toggle="collapse">
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+				</div>
+				<!-- 导航条 -->
+				<nav class="collapse navbar-collapse" id="navbar-collapse">
+					<ul class="nav navbar-nav navbar-right">
+						<li><a href="#intro" hidefocus="true">个人简介</a></li>
+						<li><a href="#skill" hidefocus="true">专业技能</a></li>
+						<li><a href="#myDemo" hidefocus="true">My Demo</a></li>
+						<li><a href="#work" hidefocus="true">学习and工作</a></li>
+					</ul>
+				</nav>			
+			</div>
+		</div>
+	</header>
+	<!-- 个人简介 -->
+	<section class="intro" id="intro">
+		<div class="container">
+			<figure class="myPhoto">
+				<img src="image/myPhoto.jpg" alt="myPhoto">
+			</figure>
+			<div class="myInfo row">
+				<div class="col-md-3 col-md-offset-1">
+					<ul>
+						<li><span>姓名</span> | 林海敏</li>
+						<li><span>手机</span> | 18316038612</li>
+						<li><span>邮箱</span> | haiminlin@yeah.net</li>
+						<li><span>所在地</span> | 广东 汕尾</li>
+						<li><span>毕业院校</span> | 华南农业大学</li>
+						<li><span>GitHub</span> | <a href="">点击进入</a></li>
+					</ul>
+				</div>
+				<div class="col-md-2"></div>
+				<div class="col-md-6 desc-text">
+					<p>一个细心、做事认真的工科男，有良好的编程习惯，对编程有强迫症，代码格式不整齐，差个空格？不能忍！界面一个像素之差？不能忍！</p>
+					<p>喜欢学习带来的那种充实自己的愉悦。</p>
+					<p>了解了前端后，对前端产生了兴趣，开始了自学前端的旅程。</br>
+					熟悉HTML、CSS、Javascript，能结合jQuery、Bootstrap开发响应式Web界面。
+					了解Vue.js，有C/C++和Linux基础，准备学习Node.js。</p>
+					<p>Web前端贴近用户和设计，是一种美妙的体验。</br>
+					前端技术发展很快，保持学习状态，才能让自己前进。</p>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- 专业技能 -->
+	<section class="skill" id="skill">
+		<div class="container">
+			<div class="skill-header">
+				<h1>专业技能</h1>
+			</div>
+			<div class="row">
+				<div class="col-md-5 skill-js">
+					<h2>Javascript</h2>
+					<ul>
+						<li>掌握原生Javascript，能脱离jQuery等类库编码</li>
+						<li>能运用模块化、面向对象的方式编程，注重Javascript性能优化</li>
+						<li>了解jQuery、Vue.js，本页面也运用了jQuery编写</li>						
+					</ul>
+				</div>
+				<div class="col-md-5 col-md-offset-2 skill-hc">
+					<h2>HTML &amp; CSS</h2>
+					<ul>
+						<li>能使用语义化的HTML和模块化的CSS编写兼容主流浏览器的页面</li>
+						<li>能适当运用CSS3使页面在现代浏览器上效果更佳</li>
+						<li>了解Bootstrap，能适当运用Bootstrap完成响应式页面</li>
+					</ul>
+				</div>
+				<div class="col-md-5 skill-ps">
+					<h2>Photoshop</h2>
+					<ul>
+						<li>能进行简单的图片处理和平面设计</li>
+						<li>能根据图片特征存成最优的格式</li>
+					</ul>
+				</div>
+				<div class="col-md-5 col-md-offset-2 skill-other">
+					<h2>其他</h2>
+					<ul>
+						<li>英语水平：CET-4</li>
+						<li>了解C/C++、Linux，能编写简单的程序</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- My Demo -->
+	<section class="myDemo" id="myDemo">
+		<div class="container">
+			<div class="demo-header">
+				<h1>My Demo</h1>
+			</div>
+			<!-- 轮播图 -->
+			<div class="carousel slide" id="myCarousel">
+				<ol class="carousel-indicators">
+					<li class="active" data-target="#myCarousel" data-slide-to="0"></li>
+					<li data-target="#myCarousel" data-slide-to="1"></li>
+					<li data-target="#myCarousel" data-slide-to="2"></li>
+				</ol>
+				<div class="carousel-inner">
+					<div class="item active">
+						<a href="#"><img src="image/demo-1.jpg" alt="demo-1"></a>
+						<div class="carousel-caption">
+							<h3>Demo 1</h3>
+							<p>运用HTML、CSS、<strong>原生Javascript</strong>编写的一个demo，用<strong>AJAX</strong>方法获取课程列表数据</p>
+						</div>
+					</div>
+					<div class="item">
+						<a href=""><img src="image/demo-2.jpg" alt="demo-2"></a>
+						<div class="carousel-caption">
+							<h3>Demo 2</h3>
+							<p>我的简历，运用了Bootstrap、jQuery编写的<strong>响应式页面</strong></p>
+						</div>
+					</div>
+					<div class="item">
+						<a href=""><img src="image/demo-3.jpg" alt="demo-3"></a>
+						<div class="carousel-caption">
+							<h3>Demo 3</h3>
+							<p>运用焦点图的静态页面</p>
+						</div>
+					</div>
+				</div>
+				<a href="#myCarousel" data-slide="prev" class="carousel-control left">&lsaquo;</a>
+				<a href="#myCarousel" data-slide="next" class="carousel-control right">&rsaquo;</a>
+			</div>
+		</div>
+	</section>
+	<!-- 学习and工作 -->
+	<section class="work" id="work">
+		<div class="container">
+			<div class="work-header">
+				<h1>学习and工作</h1>
+			</div>
+			<div class="row">
+				<div class="col-md-4 col-md-offset-2 study">
+					<h3>2011.09--2015.06</h3>
+					<h2>华南农业大学</h2>
+					<h4>电子信息工程 专业</h4>
+				</div>
+				<div class="col-md-4 col-md-offset-1 job">
+					<h3>2015.07--2016.08</h3>
+					<h2>中国联通汕尾分公司</h2>
+					<h4>传输运维岗</h4>
+					<p>负责传输基础网资源分配、2/3/4G业务配置管理；</p>
+					<p>统一网络系统管理，后台配合处理网络故障。</p>
+				</div>
+			</div>
+		</div>
+	</section>
+	<script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/myResume.js"></script>
+</body>
+</html>
