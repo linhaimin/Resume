@@ -4,18 +4,6 @@ header, section, footer, aside, nav, article, figure{
 	display: block; 
 }
 
-/*@font-face{
-	font-family: myFont;
-	src: url(../font/helveticaneue_blackcond.ttf);
-}*/
-/*@font-face{
-	font-family: myFont;
-	src: url(../font/fontawesome-webfont.woff),
-		 url(../font/fontawesome-webfont.ttf),
-		 url(../font/fontawesome-webfont.svg),
-		 url(../font/fontawesome-webfont.eot);
-}*/
-
 body{
 	position: relative;
 	margin: 0;
@@ -29,9 +17,7 @@ body{
 	width: 100%;
 	height: auto;
 	background-color: #1889C5;
-	/*background: linear-gradient(180deg, #290B36 0%, #043453 100%);*/
-	/*background-image: -webkit-gradient(radial,50% 400, 1,50% 400, 400,from(rgba(255, 255, 255, 0.3)),to(rgba(255, 255, 255, 0)));
-*/}
+}
 
 .intro .myPhoto{
 	width: 100%;
@@ -74,8 +60,6 @@ body{
 	background-image: -webkit-gradient(radial,50% 400, 1,50% 400, 400,from(rgba(255, 255, 255, 0.3)),to(rgba(255, 255, 255, 0)));
 	background-image: -ms-radial-gradient(50% 400, 1,50% 400, 400,from(rgba(255, 255, 255, 0.3)),to(rgba(255, 255, 255, 0)));
 	background-image: -moz-radial-gradient(50% 400, 1,50% 400, 400,from(rgba(255, 255, 255, 0.3)),to(rgba(255, 255, 255, 0)));
-	/*background-color: #00B271;
-	/*background-color: #6699CC;B45B3E(棕色),00B271*/
 }
 
 .skill h2{
